@@ -1,0 +1,15 @@
+/* ImageComponent.css */
+.zoom-img {
+  overflow: hidden; /* Prevents overflow of the zoomed image */
+  width: 100%; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.zoom-img img {
+  width: 100%; /* Make the image responsive */
+  transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
+}
+
+.zoom-img img:hover {
+  transform: scale(1.1); /* Zoom in by 10% on hover */
+}
